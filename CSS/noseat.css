@@ -1,0 +1,131 @@
+*{
+    font-family: 'Open Sans',Arial,sans-serif;; 
+ 
+ }
+
+ .header {
+     overflow: hidden;
+     background-color: #f1f1f1;
+     padding: 20px 10px;
+   }
+ 
+ 
+   .header a {
+     margin-top: 18px;
+     margin-right: 1px;
+     float: left;
+     color: #fff;
+     text-align: center;
+     padding: 18px;
+     text-decoration: none;
+     font-size: 18px;
+     line-height: 20px;
+     border-radius: 8px;
+     background-color: rgb(187, 60, 60);;
+   }
+ 
+   .header a.logo {
+     font-size: 25px;
+     font-weight: bold;
+   }
+   
+   .header a:hover {
+     background-color: rgb(220, 141, 141);
+     color: white;
+   }
+ 
+  
+ 
+ 
+ .header-right {
+     float: right;
+   }
+   
+
+.bus{
+    background-image: url("final.jpg");
+    background-color:rgb(187, 60, 60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.header >.bus >.final{
+        
+        border-style: solid;
+        border-color: white;
+        margin-top: 160px;
+        margin-left: 270px;
+        width: 550px;
+        height: 420px;
+        background: rgb(187, 60, 60);
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        border-radius: 11px;
+        
+        
+      
+}
+.form{
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    margin-left: 50px;
+    
+   }
+  
+   .form input{
+    width: 97%;
+    margin-bottom: 20px;
+   }
+  
+   .form input[type="text"], input[type="number"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+   }
+  
+   .form input[type="submit"]{
+    margin-left: 170px;
+    width: 120px;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 5px;
+    background: rgba(135, 66, 66, 0.722);
+   }
+
+   .final > h1{
+    margin-left: 220px;
+    float: left;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 5px;
+  }
+
+  .final > p{
+    margin-top: 185px;
+    margin-left: 125px;
+    font-weight: bold;
+    line-height: 20px;
+  }
